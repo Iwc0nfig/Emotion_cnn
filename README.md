@@ -5,7 +5,8 @@ This project focuses on emotion recognition using a Convolutional Neural Network
 ## 📁 Project Structure
 
 - `data.zip` — Contains both training and validation datasets (unzipped during preprocessing).
-- `data_augmentation.py` — Script to generate additional images specifically for the "disgusted" class (originally ~450 samples).
+- `data_augmentation.py` — Script to generate additional images specifically for the "disgusted" class (originally ~450 samples to 1308).
+- `requirements.txt` -The packages  that you will need are here . Just install them.
 - `plotting.py` — Plots and saves training/validation accuracy and loss curves to `result.png`.
 - `training.py` — Train the model. The code has been written to run on the GPU 
 
@@ -35,6 +36,6 @@ This project focuses on emotion recognition using a Convolutional Neural Network
    You can install the required packages using pip:
    
    ```bash
-   pip install requrments.txt
+   pip install requirements.txt
    ```
 

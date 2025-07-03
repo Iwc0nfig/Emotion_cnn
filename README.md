@@ -29,7 +29,7 @@ This project focuses on emotion recognition using a Convolutional Neural Network
    pytorch
    torchvision
    matplotlib
-   tqdm (optional)
+   tqdm 
    ```
    
    You can install the required packages using pip:
